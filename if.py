@@ -5,3 +5,4 @@ if 5>2:
 name = "John"
 if name == "John":
     print ("Hello, John")
+username = input("Enter your name: ")
