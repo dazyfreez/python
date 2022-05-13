@@ -2,6 +2,8 @@ print ("das ist ein rechner")
 print ("wollen sie addieren oder subrtahiren?")
 print ("1. addieren")
 print ("2. subtrahieren")
+print ("3. multiplizieren")
+print ("4. dividieren")
 x = input("bitte wählen sie eine option: ")
 if x == "1":
     print ("addieren")
@@ -13,3 +15,13 @@ elif x == "2":
     a = int(input("bitte geben sie eine zahl ein: "))
     b = int(input("bitte geben sie eine zahl ein: "))
     print (a - b)
+elif x == "3":
+    print ("multiplizieren")
+    a = int(input("bitte geben sie eine zahl ein: "))
+    b = int(input("bitte geben sie eine zahl ein: "))
+    print (a * b)
+elif x == "4":
+    print ("dividieren")
+    a = int(input("bitte geben sie eine zahl ein: "))
+    b = int(input("bitte geben sie eine zahl ein: "))
+    print (a / b)
