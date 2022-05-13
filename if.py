@@ -6,3 +6,5 @@ name = "John"
 if name == "John":
     print ("Hello, John")
 username = input("Enter your name: ")
+print ("Hello, " + username)
+
