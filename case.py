@@ -50,3 +50,7 @@ def numbers_to_months(argument):
         11: eleven,
         12: twelve
     }
+    # Get the function from switcher dictionary
+    func = switcher.get(argument, lambda: "Invalid month")
+    # Execute the function
+    print func()
