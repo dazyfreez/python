@@ -37,3 +37,7 @@ elif x == "6":
     print ("wurzel berechnen")
     a = int(input("bitte geben sie eine zahl ein: "))
     print (a ** 0.5)
+elif x == "7":
+    print ("quadrat berechnen")
+    a = int(input("bitte geben sie eine zahl ein: "))
+    print (a ** 2)
