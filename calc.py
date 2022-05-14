@@ -5,6 +5,7 @@ print ("2. subtrahieren")
 print ("3. multiplizieren")
 print ("4. dividieren")
 print ("5. hochrechnen")
+print ("6. wurzel berechnen")
 x = input("bitte wählen sie eine option: ")
 if x == "1":
     print ("addieren")
@@ -31,3 +32,7 @@ elif x == "5":
     a = int(input("bitte geben sie eine zahl ein: "))
     b = int(input("bitte geben sie eine zahl ein: "))
     print (a ** b)
+elif x == "6":
+    print ("wurzel berechnen")
+    a = int(input("bitte geben sie eine zahl ein: "))
+    print (a ** 0.5)
