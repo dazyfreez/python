@@ -43,4 +43,4 @@ elif x == "7":
     a = int(input("bitte geben sie eine zahl ein: "))
     print (a ** 2)
 elif x == "8":
-    print ("programm beenden")
+    print ("programm wurde beendet")
