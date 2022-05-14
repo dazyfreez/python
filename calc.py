@@ -6,6 +6,7 @@ print ("3. multiplizieren")
 print ("4. dividieren")
 print ("5. hochrechnen")
 print ("6. wurzel berechnen")
+print ("7. quadrat berechnen")
 x = input("bitte wählen sie eine option: ")
 if x == "1":
     print ("addieren")
