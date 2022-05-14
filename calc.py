@@ -26,3 +26,8 @@ elif x == "4":
     a = int(input("bitte geben sie eine zahl ein: "))
     b = int(input("bitte geben sie eine zahl ein: "))
     print (a / b)
+elif x == "5":
+    print ("hochrechnen")
+    a = int(input("bitte geben sie eine zahl ein: "))
+    b = int(input("bitte geben sie eine zahl ein: "))
+    print (a ** b)
