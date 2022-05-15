@@ -7,7 +7,8 @@ print ("4. dividieren")
 print ("5. hochrechnen")
 print ("6. wurzel berechnen")
 print ("7. quadrat berechnen")
-print ("8. programm beenden")
+print ("8. diskriminante berechnen")
+print ("9. programm beenden")
 x = input("bitte wählen sie eine option: ")
 if x == "1":
     print ("addieren")
@@ -43,4 +44,10 @@ elif x == "7":
     a = int(input("bitte geben sie eine zahl ein: "))
     print (a ** 2)
 elif x == "8":
+    print ("diskriminante berechnen")
+    a = int(input("bitte geben sie eine zahl ein: "))
+    b = int(input("bitte geben sie eine zahl ein: "))
+    c = int(input("bitte geben sie eine zahl ein: "))
+    print (b ** 2 - 4 * a * c)
+elif x == "9":
     print ("programm wurde beendet")
