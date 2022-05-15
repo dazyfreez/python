@@ -49,5 +49,7 @@ elif x == "8":
     b = int(input("bitte geben sie eine zahl ein: "))
     c = int(input("bitte geben sie eine zahl ein: "))
     print (b ** 2 - 4 * a * c)
+    if b ** 2 - 4 * a * c == 0:
+        print ("die diskriminante ist falsch")
 elif x == "9":
     print ("programm wurde beendet")
