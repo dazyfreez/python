@@ -5,4 +5,5 @@ i = 0
 while i < x:
     print(essen[i])
     i = i + 1
-print(essen[1])
+print(essen[i])
+
