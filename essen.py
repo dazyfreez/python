@@ -43,7 +43,5 @@ if eingabe == "ja":
 else:
     print(essen)
 print("wollen sie die ergebnisse in einer anderen reihenfolge anzeigen")
-print("ja oder nein")
-e
 
 
