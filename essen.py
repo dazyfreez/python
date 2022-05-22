@@ -35,6 +35,7 @@ print("wollen sie einen eintrag ändern")
 print("ja oder nein")
 eingabe = input()
 if eingabe == "ja":
+    print(essen)
     ändern = input("was möchten sie ändern")
     essen.remove(ändern)
     neu = input("was möchten sie ändern")
