@@ -42,6 +42,6 @@ if eingabe == "ja":
     print(essen)
 else:
     print(essen)
-print("wollen sie die ergebnisse in einer anderen reihenfolge anzeigen")
+print("wollen sie die ergebnisse in einer datei speichern")
 
 
