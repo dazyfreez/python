@@ -30,3 +30,8 @@ if eingabe == "ja":
         essen.append(neu)
         print(essen)
     elif eingabe == 5:
+        datei = open("essen.txt", "w")
+        datei.write(str(essen))
+        datei.close()
+    elif eingabe == 6:
+        print("beenden")
