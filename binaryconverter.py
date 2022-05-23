@@ -1,2 +1,5 @@
 print("hiermit können Sie eine binäre Zahl in eine dezimale umwandeln")
 print("und umgekehrt")
+print("welche umwandlung möchten sie durchführen?")
+print("1. Binär in Dezimal")
+print("2. Dezimal in Binär")
