@@ -1,7 +1,4 @@
-print("hiermit können Sie eine binäre Zahl in eine dezimale umwandeln")
-print("und umgekehrt")
-print("welche umwandlung möchten sie durchführen?")
-print("1. Binär in Dezimal")
-print("2. Dezimal in Binär")
+print("hiermit können Sie eine binäre Zahl in eine dezimale umwandeln und umgekehrt")
 x = int(input("welche zahl möchten sie suchen"))
-print (x)
+print(bin(x))   # bin() gibt die binäre Zahl als String zurück
+print(int(bin(x), 2))   # int() wandelt einen String in eine Zahl um
