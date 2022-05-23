@@ -44,5 +44,13 @@ if eingabe == "ja":
 else:
     print(essen)
 print("wollen sie die ergebnisse in einer datei speichern")
+print("ja oder nein")
+eingabe = input()
+if eingabe == "ja":
+    datei = open("essen.txt", "w")
+    datei.write(str(essen))
+    datei.close()
+else:
+    print(essen)
 
 
