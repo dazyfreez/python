@@ -35,3 +35,7 @@ if eingabe == "ja":
         datei.close()
     elif eingabe == 6:
         print("beenden")
+    else:
+        print("falsche eingabe")
+else:
+    print(essen)
