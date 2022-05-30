@@ -4,7 +4,7 @@ print("wollen sie das spiel starten")       # hier wird das spiel gestartet
 print("ja oder nein")   
 eingabe = input()
 if eingabe == "ja":
-    print("sie können zwischen 6 zahlen whälen")
+    print("sie können zwischen 1-6 whälen")
     print("wollen sie das spiel starten bedenken sie ihr leben hängt an ihrer wahl ab")
     y = int(input("wie viele zahlen wollen sie wählen"))
     print(y)
