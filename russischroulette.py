@@ -1,0 +1,1 @@
+print("das ist ein RUSSISCHE ROULETTE SPIEL")  # hier wird das spiel gestartet
