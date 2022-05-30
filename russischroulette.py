@@ -124,7 +124,7 @@ if eingabe == "ja":
                                                     x = random.randint(1,6)
                                                     print(x)
                                                     if x!=y:
-                                                        print
+                                                        print("so jetzt haben wir das ende erreicht")
     #if y == 6:
         #print("wählen sie 6 zahlen")
         #zahlen = [1,2,3,4,5,6]
