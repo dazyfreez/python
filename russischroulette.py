@@ -49,8 +49,6 @@ if eingabe == "ja":
                             if x!=y:
                                 print("sie leben noch")
                                 print("wollen sie nochmal spielen")
-                                print("ja oder nein")
-                                eingabe = input()
     else:
         print("sie müssen wohl sterben")
         print("wollen sie nochmal spielen")
