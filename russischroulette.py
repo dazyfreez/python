@@ -126,6 +126,7 @@ if eingabe == "ja":
                                                         print("sie haben das ende erreicht")
                                                         print("sie haben das ende erreicht")
                                                         print("sie haben das ende erreicht")
+                                                        print("sie haben das ende erreicht")
     #if y == 6:
         #print("wählen sie 6 zahlen")
         #zahlen = [1,2,3,4,5,6]
