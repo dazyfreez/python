@@ -36,3 +36,56 @@ def sort_list_by_length():
     list = sorted(list, key=len)
     # now we will print the sorted list
     print("sorted list: " + str(list))
+
+def sort_list_by_length_and_alphabetically():
+    # now we will sort a list by the length of the strings
+    # and alphabetically
+    # we will use the sorted function
+    list = ["hello", "world", "this", "is", "a", "list", "of", "strings"]
+    print("unsorted list: " + str(list))
+    # now we will sort the list
+    list = sorted(list, key=len)
+    # now we will sort the list alphabetically
+    list = sorted(list)
+    # now we will print the sorted list
+    print("sorted list: " + str(list))
+
+def sort_list_by_length_and_alphabetically_and_reverse():
+    # now we will sort a list by the length of the strings
+    # and alphabetically
+    # we will use the sorted function
+    list = ["hello", "world", "this", "is", "a", "list", "of", "strings"]
+    print("unsorted list: " + str(list))
+    # now we will sort the list
+    list = sorted(list, key=len)
+    # now we will sort the list alphabetically
+    list = sorted(list)
+    # now we will reverse the list
+    list.reverse()
+    # now we will print the sorted list
+    print("sorted list: " + str(list))
+
+print("welcome to the sorting algorithmus")
+print("please choose an option")
+print("1. sort a list")
+print("2. sort a list by yourself")
+print("3. sort a list by the length of the strings")
+print("4. sort a list by the length of the strings and alphabetically")
+print("5. sort a list by the length of the strings and alphabetically and reverse")
+print("6. exit")
+while True:
+    x = int(input("please choose an option"))
+    if x == 1:
+        sort()
+    elif x == 2:
+        sort_list_by_yourself()
+    elif x == 3:
+        sort_list_by_length()
+    elif x == 4:
+        sort_list_by_length_and_alphabetically()
+    elif x == 5:
+        sort_list_by_length_and_alphabetically_and_reverse()
+    elif x == 6:
+        break
+    else:
+        print("invalid option")
